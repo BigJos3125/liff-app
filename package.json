@@ -1,0 +1,32 @@
+{
+  "name": "tinycare",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@line/liff": "2.23.2",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "antd": "^5.19.3",
+    "antd-input-otp": "^2.1.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.1",
+    "tailwindcss": "^3.4.6",
+    "vite": "5.3.4"
+  }
+}

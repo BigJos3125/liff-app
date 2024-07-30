@@ -1,0 +1,27 @@
+.custom-otp-input {
+    width: 20px; /* กำหนดขนาดที่ต้องการ */
+    height: 15px;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px solid #1f1616;
+    border-radius: 10px; /* เปลี่ยนสีกรอบที่ต้องการ */
+    border-radius: 8px; /* กำหนดความโค้งของมุมกรอบ */; /* เพิ่มช่องว่างภายใน */
+    background-color: #ECECEC; /* พื้นหลังสีขาว */
+  }
+  .form-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .input-classname {
+    border-radius: 16px;
+  }
+  
+  .wrapper-classname {
+    gap: 4px;
+    margin-bottom: 24px;
+  }
+  

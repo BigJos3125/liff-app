@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ให้สูงเต็มหน้าจอ */
+  overflow: hidden;
+  display: flex; 
+  justify-content: center; /* จัดกึ่งกลางเนื้อหาแนวนอน */
+  align-items: center;
+  background: linear-gradient(30deg, #FFFFFF, #90D5FD); /* จัดกึ่งกลางเนื้อหาแนวตั้ง */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(30deg, #FFFFFF, #90D5FD); /* การไล่เฉดสี */
+  opacity: 0.2; /* ตั้งค่า opacity เป็น 20% */
+  z-index: -1; /* เพื่อให้อยู่ด้านหลังของเนื้อหา */
+}
+
+.overlay-box {
+  position: relative; /* ทำให้กล่องนี้อยู่ด้านหน้า */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: #FFFFFF; /* พื้นหลังสีขาว */
+  border-radius: 10px; /* ทำมุมกล่องให้โค้ง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กล่อง */
+  z-index: 1; /* เพื่อให้อยู่ด้านหน้า */
+}
